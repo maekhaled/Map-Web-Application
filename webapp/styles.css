@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+
+.title {
+  margin-top: 40px;
+  font-family: "Droid Serif", serif;
+  color: #046a8a;
+  font-size: 60px;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Droid Serif", serif;
+  color: #31b6ca;
+  font-size: 40px;
+  text-align: center;
+}
+
+.map {
+  display: inline-block;
+  width: 80%;
+  height: 800px;
+  margin: auto;
+}
+
+.div-block-2 {
+  position: fixed;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 600px;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-left: 20px;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tabs-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: "Droid Sans", sans-serif;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tabs-content {
+  position: relative;
+  display: inline-block;
+  height: 562px;
+  float: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.tabs {
+  position: static;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  float: none;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tab-link {
+  float: left;
+  width: 33.33%;
+  background-color: #31b6ca;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.tab-link.active {
+  background-color: #046a8a;
+  font-weight: 700;
+}
+
+.tab-pane {
+  display: none;
+  height: 562px;
+}
+
+.tab-text {
+  width: auto;
+  color: snow;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  font-family: "Droid Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.text-block {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.createPopup {
+  position: relative;
+  text-align: center;
+  z-index: 999;
+}
+.formPopup {
+  display: none;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #999999;
+  z-index: 999;
+  cursor: default;
+  pointer-events: auto;
+}
+.formContainer {
+  padding: 20px;
+  background-color: #fff;
+  z-index: 999;
+}
+.formContainer input[type="text"] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.formContainer input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.formContainer .btn {
+  padding: 12px 20px;
+  border: none;
+  background-color: #5fdada;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.formContainer .cancel {
+  background-color: rgb(101, 135, 154);
+}
+.formContainer .btn:hover,
+.openButton:hover {
+  opacity: 1;
+}
+
+.statusbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Droid Serif", serif;
+  color: #ffffff;
+  font-size: 18px;
+  width: 80%;
+  background-color: #2792a380;
+  font-weight: bold;
+  text-align: center;
+}
+.box {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
